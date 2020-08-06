@@ -1,1 +1,46 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ChattersHub</title>
+</head>
+<body>
+<div ng-controller="HomeController as ctrl" >
+		<div ng-hide="currentUser==''">
+			<div class="nav navbar-nav navbar-left">Welcome : {{currentUser.name}}. &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;
+				You logged in as : {{currentUser.role}}. </div>
+				      
+				      <div class="nav navbar-nav navbar-right">
+		          <a href="#/myprofile" >My Profile</a>   &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; 
+		   
+		</div>
+		</div>
+		<br><br>
+		<div class="container" align="center">
+		<h2 style="color:blue">Welcome to ChattersHub</h2>
+		</div><br><br>
+		<div align="center"><h3>
+		This is a collaboration application that allows the students,alumni and employees of an organization interact with each other.
+		</h3></div>
+		<div class="container">
+			<div class="column">
+				<div class="col-sm-4">
+					<h3 class="bg-primary">Jobs</h3>
+					<p>You can view and apply for new jobs.</p>
+					<p>You can apply for particular job after login</p>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="bg-primary">Blogs</h3>
+					<p>Create new blogs</p>
+					<p>View the existing blogs</p>
+				</div>
+				<div class="col-sm-4">
+					<h3 class="bg-primary">Alumni/Student/Employees</h3>
+					<p>This site is made for alumni,students and employees</p>
+					<p>Allows them to collaborate with each other</p>
+				</div>
+			</div>
+		</div>
+	</div></div>
+</body>
+</html>	
